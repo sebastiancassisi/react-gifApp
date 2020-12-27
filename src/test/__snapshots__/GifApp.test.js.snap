@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifApp.js Debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    GifApp
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="batman"
+      key="batman"
+    />
+    <GifGrid
+      category="ramones"
+      key="ramones"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Pruebas en GifApp.js Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h2>
+    GifApp
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
